@@ -1,0 +1,156 @@
+div {
+	b/order: 1px solid rgba(0, 0, 0, 0.3);
+	m/argin: -1px;
+}
+
+body {
+	margin: 0px
+}
+
+#header {
+	border-bottom: 1px solid #000;
+}
+
+.main-layout {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+#logo {
+	width: 20%;
+	float: left;
+	height: 50px;
+}
+
+#logo h1 {
+	margin: 10px 25px;
+	
+}
+
+#menu {
+	width: 80%;
+	float: left;
+	height: 50px;
+	text-align: right;
+}
+
+ul.nav {
+	margin: 0;
+	padding: 0;
+}
+
+ul.nav li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+
+ul.nav li a {
+	padding: 18px 17px 18px 17px;
+	display: inline-block;
+	color: #000;
+	text-decoration: none;
+}
+
+ul.nav li a:hover {
+	background-color: gray;
+}
+
+#banner {
+	background: url(FateStayNight.jpg) center -100px no-repeat;
+	height: 400px;
+}
+
+.banner-inner {
+	padding-top: 150px;
+}
+
+.banner-inner h1 {
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-size: 130px;
+	text-shadow: 0 0 10px rgba(0,0,0,.6);
+}
+
+/* main body */
+#main-body {
+	margin-top: 100px;
+}
+
+.main-content,
+.right-col {
+	float: left;
+}
+
+.main-content {
+	width: 70%;
+}
+
+.right-col {
+	width: 30%;
+}
+
+.article-info {
+	color: gray;
+}
+
+.article-item {
+	margin: 40px 30px 40px 0px;
+}
+
+.readmore {
+	display: inline-block;
+	padding: 10px 15px;
+	background-color: rgb(58, 141, 236);
+	box-shadow: 0 5px 0 #1A58A9;
+	color: white;
+	text-decoration: none;;
+	border-radius: 5px;
+}
+
+/* Typography */
+p {
+	line-height: 150%;
+	margin: 2em 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	color: rgb(58, 143, 236);
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1A58A9;
+}
+
+ul li {}
+
+h1, h2 {}
+
+/* Footer */
+#footer {
+	background-color: #222;
+	padding: 70px 0;
+	color: white;
+	text-align: center;
+}
+#footer ul.nav a {
+	color: white;
+	background: none;
+	padding: 10px 15px;
+}
+
+#footer ul.nav a:hover {
+	color: #eee;
+	background: none;
+}
